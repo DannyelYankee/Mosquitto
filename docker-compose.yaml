@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  mqtt-cliente:
+    container_name: mqtt-cliente 
+    build:
+      context: .
+      dockerfile: DockerFile
+  mqtt:
+    container_name: mqtt
+    image: eclipse-mosquitto
+    restart: unless-stopped
+    volumes:
+      - /home/daniel/Documentos/GitHub/Mosquitto/mosquitto/config:/mosquitto/config
+      - /home/daniel/Documentos/GitHub/Mosquitto/mosquitto/data:/mosquitto/data
+      - /home/daniel/Documentos/GitHub/Mosquitto/mosquitto/log:/mosquitto/log
+    
+    ports:
+      - 1883:1883
+      - 9001:9001
+
+
