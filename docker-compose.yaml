@@ -11,9 +11,9 @@ services:
     image: eclipse-mosquitto
     restart: unless-stopped
     volumes:
-      - /home/daniel/Documentos/GitHub/Mosquitto/mosquitto/config:/mosquitto/config
-      - /home/daniel/Documentos/GitHub/Mosquitto/mosquitto/data:/mosquitto/data
-      - /home/daniel/Documentos/GitHub/Mosquitto/mosquitto/log:/mosquitto/log
+      - ./mosquitto/config:/mosquitto/config
+      - ./mosquitto/data:/mosquitto/data
+      - ./mosquitto/log:/mosquitto/log
     
     ports:
       - 1883:1883
