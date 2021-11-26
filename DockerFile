@@ -1,3 +1,11 @@
 FROM python:3.8-alpine3.13
 
+WORKDIR /data
+
+COPY ./MqttPub.py /data
+COPY ./MqttSub.py /data
+
 RUN pip3 install paho-mqtt 
+
+CMD ["python3", "MqttPub.py"]
+CMD ["python3", "MqttSub.py"]

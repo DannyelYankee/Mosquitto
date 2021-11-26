@@ -1,0 +1,42 @@
+1637927316: mosquitto version 2.0.14 starting
+1637927316: Config loaded from /mosquitto/config/mosquitto.conf.
+1637927316: Starting in local only mode. Connections will only be possible from clients running on this machine.
+1637927316: Create a configuration file which defines a listener to allow remote access.
+1637927316: For more details see https://mosquitto.org/documentation/authentication-methods/
+1637927316: Opening ipv4 listen socket on port 1883.
+1637927316: Opening ipv6 listen socket on port 1883.
+1637927316: Error: Address not available
+1637927316: mosquitto version 2.0.14 running
+1637927523: New connection from 127.0.0.1:48904 on port 1883.
+1637927523: New client connected from 127.0.0.1:48904 as auto-766EBFE8-4F48-86C2-B8A6-58DB6133BD18 (p2, c1, k60).
+1637927523: No will message specified.
+1637927523: Sending CONNACK to auto-766EBFE8-4F48-86C2-B8A6-58DB6133BD18 (0, 0)
+1637927523: Received SUBSCRIBE from auto-766EBFE8-4F48-86C2-B8A6-58DB6133BD18
+1637927523: 	/# (QoS 0)
+1637927523: auto-766EBFE8-4F48-86C2-B8A6-58DB6133BD18 0 /#
+1637927523: Sending SUBACK to auto-766EBFE8-4F48-86C2-B8A6-58DB6133BD18
+1637927545: New connection from 127.0.0.1:48910 on port 1883.
+1637927545: New client connected from 127.0.0.1:48910 as auto-6CB8428F-4AE6-AAE3-0FB7-7958C3ED176A (p2, c1, k60).
+1637927545: No will message specified.
+1637927545: Sending CONNACK to auto-6CB8428F-4AE6-AAE3-0FB7-7958C3ED176A (0, 0)
+1637927545: Received PUBLISH from auto-6CB8428F-4AE6-AAE3-0FB7-7958C3ED176A (d0, q0, r0, m0, 'test/1', ... (4 bytes))
+1637927545: Received DISCONNECT from auto-6CB8428F-4AE6-AAE3-0FB7-7958C3ED176A
+1637927545: Client auto-6CB8428F-4AE6-AAE3-0FB7-7958C3ED176A disconnected.
+1637927564: New connection from 127.0.0.1:48912 on port 1883.
+1637927564: New client connected from 127.0.0.1:48912 as auto-EC8B8380-A838-50D5-E206-D2D8184D8F85 (p2, c1, k60).
+1637927564: No will message specified.
+1637927564: Sending CONNACK to auto-EC8B8380-A838-50D5-E206-D2D8184D8F85 (0, 0)
+1637927564: Received SUBSCRIBE from auto-EC8B8380-A838-50D5-E206-D2D8184D8F85
+1637927564: 	test/# (QoS 0)
+1637927564: auto-EC8B8380-A838-50D5-E206-D2D8184D8F85 0 test/#
+1637927564: Sending SUBACK to auto-EC8B8380-A838-50D5-E206-D2D8184D8F85
+1637927570: New connection from 127.0.0.1:48914 on port 1883.
+1637927570: New client connected from 127.0.0.1:48914 as auto-A7B2E82C-AD83-BEFA-EC3D-2E619E0F4FA1 (p2, c1, k60).
+1637927570: No will message specified.
+1637927570: Sending CONNACK to auto-A7B2E82C-AD83-BEFA-EC3D-2E619E0F4FA1 (0, 0)
+1637927570: Received PUBLISH from auto-A7B2E82C-AD83-BEFA-EC3D-2E619E0F4FA1 (d0, q0, r0, m0, 'test/hola', ... (4 bytes))
+1637927570: Sending PUBLISH to auto-EC8B8380-A838-50D5-E206-D2D8184D8F85 (d0, q0, r0, m0, 'test/hola', ... (4 bytes))
+1637927570: Received DISCONNECT from auto-A7B2E82C-AD83-BEFA-EC3D-2E619E0F4FA1
+1637927570: Client auto-A7B2E82C-AD83-BEFA-EC3D-2E619E0F4FA1 disconnected.
+1637927616: Client auto-766EBFE8-4F48-86C2-B8A6-58DB6133BD18 has exceeded timeout, disconnecting.
+1637927658: Client auto-EC8B8380-A838-50D5-E206-D2D8184D8F85 has exceeded timeout, disconnecting.
