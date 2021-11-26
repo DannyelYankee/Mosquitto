@@ -6,6 +6,8 @@ services:
     build:
       context: .
       dockerfile: DockerFile
+    links:
+      - mqtt
   mqtt:
     container_name: mqtt
     image: eclipse-mosquitto
