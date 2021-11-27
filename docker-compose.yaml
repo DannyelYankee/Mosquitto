@@ -3,9 +3,7 @@ version: '3'
 services:
   mqtt-cliente:
     container_name: mqtt-cliente 
-    build:
-      context: .
-      dockerfile: DockerFile
+    image: dannyelyankee/mosquitto_mqtt-cliente
     links:
       - mqtt
   mqtt:

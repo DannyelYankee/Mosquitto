@@ -1,11 +1,11 @@
 FROM python:3.8-alpine3.13
-
+#Creamos un directorio
 WORKDIR /data
-
+#Añadimos los scripts al contenedor
 COPY ./MqttPub.py /data
 COPY ./MqttSub.py /data
-
+#Descargamos la libería que usaremos para Mosquitto
 RUN pip3 install paho-mqtt 
-
+#Ordenamos que se ejecuten los dos scripts
 CMD ["python3", "MqttPub.py"]
 CMD ["python3", "MqttSub.py"]

@@ -175,3 +175,51 @@
 1637949130: Opening ipv4 listen socket on port 1883.
 1637949130: Opening ipv6 listen socket on port 1883.
 1637949130: mosquitto version 2.0.14 running
+1637949201: mosquitto version 2.0.14 terminating
+1637949201: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1638007113: mosquitto version 2.0.14 starting
+1638007113: Config loaded from /mosquitto/config/mosquitto.conf.
+1638007113: Opening ipv4 listen socket on port 1883.
+1638007113: Opening ipv6 listen socket on port 1883.
+1638007113: mosquitto version 2.0.14 running
+1638008914: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1638010715: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1638011974: mosquitto version 2.0.14 terminating
+1638011974: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1638033788: mosquitto version 2.0.14 starting
+1638033788: Config loaded from /mosquitto/config/mosquitto.conf.
+1638033788: Opening ipv4 listen socket on port 1883.
+1638033788: Opening ipv6 listen socket on port 1883.
+1638033788: mosquitto version 2.0.14 running
+1638033862: New connection from 172.28.0.3:32781 on port 1883.
+1638033862: New client connected from 172.28.0.3:32781 as auto-A6E864CC-3375-0D8C-D14C-F74170DDBDBD (p2, c1, k60).
+1638033862: No will message specified.
+1638033862: Sending CONNACK to auto-A6E864CC-3375-0D8C-D14C-F74170DDBDBD (0, 0)
+1638033862: Received PUBLISH from auto-A6E864CC-3375-0D8C-D14C-F74170DDBDBD (d0, q0, r0, m0, 'ALSW/temp', ... (2 bytes))
+1638033862: Client auto-A6E864CC-3375-0D8C-D14C-F74170DDBDBD closed its connection.
+1638033989: mosquitto version 2.0.14 terminating
+1638033989: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1638034541: mosquitto version 2.0.14 starting
+1638034541: Config loaded from /mosquitto/config/mosquitto.conf.
+1638034541: Opening ipv4 listen socket on port 1883.
+1638034541: Opening ipv6 listen socket on port 1883.
+1638034541: mosquitto version 2.0.14 running
+1638034542: New connection from 172.18.0.3:44847 on port 1883.
+1638034542: New client connected from 172.18.0.3:44847 as auto-FCE2F623-D5B9-ACD1-2BCF-1B6ADD0344E0 (p2, c1, k60).
+1638034542: No will message specified.
+1638034542: Sending CONNACK to auto-FCE2F623-D5B9-ACD1-2BCF-1B6ADD0344E0 (0, 0)
+1638034542: Received PUBLISH from auto-FCE2F623-D5B9-ACD1-2BCF-1B6ADD0344E0 (d0, q0, r0, m0, 'ALSW/temp', ... (2 bytes))
+1638034542: Client auto-FCE2F623-D5B9-ACD1-2BCF-1B6ADD0344E0 closed its connection.
+1638034732: mosquitto version 2.0.14 terminating
+1638034732: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1638034811: mosquitto version 2.0.14 starting
+1638034811: Config loaded from /mosquitto/config/mosquitto.conf.
+1638034811: Opening ipv4 listen socket on port 1883.
+1638034811: Opening ipv6 listen socket on port 1883.
+1638034811: mosquitto version 2.0.14 running
+1638034812: New connection from 172.19.0.3:50169 on port 1883.
+1638034812: New client connected from 172.19.0.3:50169 as auto-66FFF500-A9DA-99FB-DFE5-C0EBFD69846F (p2, c1, k60).
+1638034812: No will message specified.
+1638034812: Sending CONNACK to auto-66FFF500-A9DA-99FB-DFE5-C0EBFD69846F (0, 0)
+1638034812: Received PUBLISH from auto-66FFF500-A9DA-99FB-DFE5-C0EBFD69846F (d0, q0, r0, m0, 'ALSW/temp', ... (2 bytes))
+1638034812: Client auto-66FFF500-A9DA-99FB-DFE5-C0EBFD69846F closed its connection.
