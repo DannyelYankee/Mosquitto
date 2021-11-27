@@ -7,5 +7,5 @@ spec:
     - name: mqtt
       image: eclipse-mosquitto
       ports:
-        - containerPort1: 1883
-        - containerPort2: 9001
+        - containerPort: 1883
+        - containerPort: 9001
