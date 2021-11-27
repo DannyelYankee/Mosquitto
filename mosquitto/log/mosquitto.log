@@ -223,3 +223,5 @@
 1638034812: Sending CONNACK to auto-66FFF500-A9DA-99FB-DFE5-C0EBFD69846F (0, 0)
 1638034812: Received PUBLISH from auto-66FFF500-A9DA-99FB-DFE5-C0EBFD69846F (d0, q0, r0, m0, 'ALSW/temp', ... (2 bytes))
 1638034812: Client auto-66FFF500-A9DA-99FB-DFE5-C0EBFD69846F closed its connection.
+1638036611: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1638038412: Saving in-memory database to /mosquitto/data/mosquitto.db.

@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mqtt-pod
+spec:
+  containers:
+    - name: mqtt
+      image: eclipse-mosquitto
+      ports:
+        - containerPort1: 1883
+        - containerPort2: 9001
