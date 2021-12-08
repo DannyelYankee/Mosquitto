@@ -5,7 +5,7 @@ def on_connect(client, userdata, flags, rc):
 
 
 
-    client.subscribe("ALSW/#")
+    client.subscribe("test/#")
 
 
 def on_message(client, userdata, msg):

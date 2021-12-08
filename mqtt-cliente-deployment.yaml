@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mqtt-cliente
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      component: mqtt-cliente
+  template:
+    metadata:
+     labels:
+        component: mqtt-cliente
+    spec:
+      containers:
+      - image: dannyelyankee/mosquitto_mqtt-cliente        
+        name: mqtt-cliente
+
