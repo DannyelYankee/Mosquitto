@@ -15,7 +15,7 @@ spec:
         app: mqtt-cliente
     spec:
       containers:
-      - image: dannyelyankee/mosquitto_mqtt-cliente        
+      - image: dannyelyankee/mosquitto_mqtt-cliente:v2        
         name: mqtt-cliente
         resources:
           limits:

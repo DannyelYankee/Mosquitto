@@ -3,9 +3,9 @@ version: '3'
 services:
   mqtt-cliente:
     container_name: mqtt-cliente 
-    image: dannyelyankee/mosquitto_mqtt-cliente:v1
-    depends_on:
-      - "mqtt"
+    image: dannyelyankee/mosquitto_mqtt-cliente
+    links:
+      - mqtt
   mqtt:
     container_name: mqtt
     image: eclipse-mosquitto

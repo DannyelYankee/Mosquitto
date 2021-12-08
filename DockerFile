@@ -6,6 +6,7 @@ COPY ./MqttPub.py /data
 COPY ./MqttSub.py /data
 #Descargamos la libería que usaremos para Mosquitto
 RUN pip3 install paho-mqtt 
+RUN pip3 install datetime
 #Ordenamos que se ejecuten los dos scripts
 CMD ["python3", "MqttPub.py"]
 CMD ["python3", "MqttSub.py"]
