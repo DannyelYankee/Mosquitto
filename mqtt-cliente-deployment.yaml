@@ -15,9 +15,6 @@ spec:
         app: mqtt-cliente
     spec:
       containers:
-      - image: dannyelyankee/mosquitto_mqtt-cliente:v2        
+      - image: dannyelyankee/mosquitto_mqtt-cliente:v1        
         name: mqtt-cliente
-        resources:
-          limits:
-            cpu: "900m"
 
