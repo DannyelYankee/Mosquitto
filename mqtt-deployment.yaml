@@ -2,15 +2,17 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mqtt
+  labels: 
+    service: mqtt
 spec:
   replicas: 1
   selector:
     matchLabels:
-      component: mqtt
+      service: mqtt
   template:
     metadata:
       labels:
-        component: mqtt
+        service: mqtt
     spec:
       containers:
       - image: eclipse-mosquitto

@@ -2,17 +2,22 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mqtt-cliente
+  labels:
+    app: mqtt-cliente
 spec:
   replicas: 1
   selector:
     matchLabels:
-      component: mqtt-cliente
+      app: mqtt-cliente
   template:
     metadata:
      labels:
-        component: mqtt-cliente
+        app: mqtt-cliente
     spec:
       containers:
       - image: dannyelyankee/mosquitto_mqtt-cliente        
         name: mqtt-cliente
+        resources:
+          limits:
+            cpu: "900m"
 
