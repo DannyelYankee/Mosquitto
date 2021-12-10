@@ -3,7 +3,7 @@ kind: Service
 metadata:
  name: mqtt-cluster-ip-service
  labels:
-   service: mqtt
+   app: mqtt
 spec:
   type: ClusterIP
   ports:
@@ -14,5 +14,5 @@ spec:
     port: 9001
     targetPort: 9001
   selector:
-    service: mqtt
+    app: mqtt
 

@@ -691,3 +691,5 @@
 1639154515: Client auto-22C56B76-EEFA-85D8-0E98-7D11DD8CA3CE closed its connection.
 1639156316: Saving in-memory database to /mosquitto/data/mosquitto.db.
 1639158117: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1639158562: mosquitto version 2.0.14 terminating
+1639158562: Saving in-memory database to /mosquitto/data/mosquitto.db.
