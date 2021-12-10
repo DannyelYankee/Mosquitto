@@ -1,11 +1,10 @@
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
-  name: mosquitto-data
+  name: mosquitto-config
 spec:
   accessModes:
-  - ReadWriteOnce
+  - ReadOnlyMany
   resources:
     requests:
-      storage: 50Mi
-status: {}
+      storage: 15Mi

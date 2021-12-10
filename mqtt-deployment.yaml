@@ -2,23 +2,44 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: mqtt
-  labels: 
-    service: mqtt
 spec:
   replicas: 1
   selector:
     matchLabels:
-      service: mqtt
+      app: mqtt
   template:
     metadata:
       labels:
-        service: mqtt
+        app: mqtt
     spec:
       containers:
-      - image: eclipse-mosquitto
-        name: mqtt
+      - name: mqtt
+        image: eclipse-mosquitto
         ports:
         - containerPort: 1883
         - containerPort: 9001
-      restartPolicy: Always
+        resources:
+          limits:
+            cpu: 100m
+            memory: 740Mi
+        volumeMounts:
+        - name: mosquitto-config
+          mountPath: /mosquitto/config
+          subPath: config
+        - name: mosquitto-data
+          mountPath: /mosquitto/data
+          subPath: data
+        - name: mosquitto-log
+          mountPath: /mosquitto/log
+          subPath: log
+      volumes:
+      - name: mosquitto-config
+        persistentVolumeClaim:
+          claimName: mosquitto-config
+      - name: mosquitto-data
+        persistentVolumeClaim:
+          claimName: mosquitto-data
+      - name: mosquitto-log
+        persistentVolumeClaim:
+          claimName: mosquitto-log
      
