@@ -12,6 +12,14 @@ spec:
       labels:
         app: mqtt
     spec:
+      initContainers:
+      - name: create-mosquitto-conf-file
+        image: eclipse-mosquitto
+        command: ["touch", "/mosquitto/config/mosquitto.conf"]
+        volumeMounts:
+        - name: mosquitto-config
+          mountPath: /mosquitto/config
+          subPath: mosquitto.conf
       containers:
       - name: mqtt
         image: eclipse-mosquitto
@@ -24,8 +32,8 @@ spec:
             memory: 740Mi
         volumeMounts:
         - name: mosquitto-config
-          mountPath: /mosquitto/config
-          subPath: config
+          mountPath: /mosquitto/config/
+          subPath: mosquitto.conf
         - name: mosquitto-data
           mountPath: /mosquitto/data
           subPath: data
