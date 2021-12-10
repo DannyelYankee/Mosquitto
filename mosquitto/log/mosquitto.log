@@ -737,3 +737,6 @@
 1639165820: Sending CONNACK to auto-B687EFE8-F6D6-1302-425B-198C83E98C80 (0, 0)
 1639165820: Received PUBLISH from auto-B687EFE8-F6D6-1302-425B-198C83E98C80 (d0, q0, r0, m0, 'test/2021-12-10 19:50:20', ... (4 bytes))
 1639165820: Client auto-B687EFE8-F6D6-1302-425B-198C83E98C80 closed its connection.
+1639167620: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1639169421: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1639171222: Saving in-memory database to /mosquitto/data/mosquitto.db.
