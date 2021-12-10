@@ -8,5 +8,5 @@ COPY ./MqttSub.py /data
 RUN pip3 install paho-mqtt 
 RUN pip3 install datetime
 #Ordenamos que se ejecuten los dos scripts
-CMD ["python3", "MqttPub.py"]
 CMD ["python3", "MqttSub.py"]
+CMD ["python3", "MqttPub.py"]

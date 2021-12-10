@@ -1,21 +1,22 @@
 version: '3'
 
 services:
-  mqtt-cliente:
+
+  mqtt-cliente: #contenedor cliente
     container_name: mqtt-cliente 
-    image: dannyelyankee/mosquitto_mqtt-cliente:v1
-    depends_on:
+    image: dannyelyankee/mosquitto_mqtt-cliente:v1 #usamos la imagen de docker hub
+    depends_on: #esperará a que el contenedor 'mqtt' esté corriendo 
       - "mqtt"
-  mqtt:
+  mqtt: #contenedor imagen dada por el profesor
     container_name: mqtt
     image: eclipse-mosquitto
-    restart: unless-stopped
-    volumes:
-      - ./mosquitto/config:/mosquitto/config
-      - ./mosquitto/data:/mosquitto/data
-      - ./mosquitto/log:/mosquitto/log
+    restart: unless-stopped #reinicia el contenedor solo cuando un usuario detenga el contenedor
+    volumes: 
+      - ./mosquitto/config:/mosquitto/config #necesario para establecer la configuración de mosquitto dentro del contenedor
+      - ./mosquitto/data:/mosquitto/data # ruta donde la base de datos persistente se almacenará
+      - ./mosquitto/log:/mosquitto/log #aquí se almacenan los logs de mosquitto, lo usaremos para visualizar los mensajes publicados
     
-    ports:
+    ports: #puertos que usa mosquitto
       - 1883:1883
       - 9001:9001
 

@@ -693,3 +693,47 @@
 1639158117: Saving in-memory database to /mosquitto/data/mosquitto.db.
 1639158562: mosquitto version 2.0.14 terminating
 1639158562: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1639161891: mosquitto version 2.0.14 starting
+1639161891: Config loaded from /mosquitto/config/mosquitto.conf.
+1639161891: Opening ipv4 listen socket on port 1883.
+1639161891: Opening ipv6 listen socket on port 1883.
+1639161891: mosquitto version 2.0.14 running
+1639161891: mosquitto version 2.0.14 terminating
+1639161891: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1639161896: mosquitto version 2.0.14 starting
+1639161896: Config loaded from /mosquitto/config/mosquitto.conf.
+1639161896: Opening ipv4 listen socket on port 1883.
+1639161896: Opening ipv6 listen socket on port 1883.
+1639161896: mosquitto version 2.0.14 running
+1639161897: New connection from 172.23.0.3:56465 on port 1883.
+1639161897: New client connected from 172.23.0.3:56465 as auto-564E0909-89B0-38C6-9EF8-A80130DAB289 (p2, c1, k60).
+1639161897: No will message specified.
+1639161897: Sending CONNACK to auto-564E0909-89B0-38C6-9EF8-A80130DAB289 (0, 0)
+1639161897: Received PUBLISH from auto-564E0909-89B0-38C6-9EF8-A80130DAB289 (d0, q0, r0, m0, 'test/2021-12-10 18:44:57', ... (4 bytes))
+1639161897: Client auto-564E0909-89B0-38C6-9EF8-A80130DAB289 closed its connection.
+1639161948: mosquitto version 2.0.14 terminating
+1639161948: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1639161990: mosquitto version 2.0.14 starting
+1639161990: Config loaded from /mosquitto/config/mosquitto.conf.
+1639161990: Opening ipv4 listen socket on port 1883.
+1639161990: Opening ipv6 listen socket on port 1883.
+1639161990: mosquitto version 2.0.14 running
+1639161991: New connection from 172.24.0.3:39185 on port 1883.
+1639161991: New client connected from 172.24.0.3:39185 as auto-6DB46F7F-4512-1265-234F-1403EA656BBE (p2, c1, k60).
+1639161991: No will message specified.
+1639161991: Sending CONNACK to auto-6DB46F7F-4512-1265-234F-1403EA656BBE (0, 0)
+1639161991: Received PUBLISH from auto-6DB46F7F-4512-1265-234F-1403EA656BBE (d0, q0, r0, m0, 'test/2021-12-10 18:46:31', ... (4 bytes))
+1639161991: Client auto-6DB46F7F-4512-1265-234F-1403EA656BBE closed its connection.
+1639162087: mosquitto version 2.0.14 terminating
+1639162087: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1639165819: mosquitto version 2.0.14 starting
+1639165819: Config loaded from /mosquitto/config/mosquitto.conf.
+1639165819: Opening ipv4 listen socket on port 1883.
+1639165819: Opening ipv6 listen socket on port 1883.
+1639165819: mosquitto version 2.0.14 running
+1639165820: New connection from 172.25.0.3:52435 on port 1883.
+1639165820: New client connected from 172.25.0.3:52435 as auto-B687EFE8-F6D6-1302-425B-198C83E98C80 (p2, c1, k60).
+1639165820: No will message specified.
+1639165820: Sending CONNACK to auto-B687EFE8-F6D6-1302-425B-198C83E98C80 (0, 0)
+1639165820: Received PUBLISH from auto-B687EFE8-F6D6-1302-425B-198C83E98C80 (d0, q0, r0, m0, 'test/2021-12-10 19:50:20', ... (4 bytes))
+1639165820: Client auto-B687EFE8-F6D6-1302-425B-198C83E98C80 closed its connection.
