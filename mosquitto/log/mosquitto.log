@@ -740,3 +740,11 @@
 1639167620: Saving in-memory database to /mosquitto/data/mosquitto.db.
 1639169421: Saving in-memory database to /mosquitto/data/mosquitto.db.
 1639171222: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1639172513: New connection from 172.25.0.3:44871 on port 1883.
+1639172513: New client connected from 172.25.0.3:44871 as auto-6D7EA11A-1655-B64F-FBA5-BEF4A7091678 (p2, c1, k60).
+1639172513: No will message specified.
+1639172513: Sending CONNACK to auto-6D7EA11A-1655-B64F-FBA5-BEF4A7091678 (0, 0)
+1639172513: Received PUBLISH from auto-6D7EA11A-1655-B64F-FBA5-BEF4A7091678 (d0, q0, r0, m0, 'test/2021-12-10 21:41:53', ... (4 bytes))
+1639172513: Client auto-6D7EA11A-1655-B64F-FBA5-BEF4A7091678 closed its connection.
+1639172930: mosquitto version 2.0.14 terminating
+1639172930: Saving in-memory database to /mosquitto/data/mosquitto.db.
